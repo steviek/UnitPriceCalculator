@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="string_locale">fr</string>
+    <string name="current">Actuelle</string>
+    <string name="saved">Sauvegardées</string>
+    <string name="settings">Préférences</string>
+
+    <string name="app_name">Calculatrice prix unitaire</string>
+
+    <string name="choose_unit_type">Choisir le type d\'unité</string>
+    <string name="unit_type">Type d\'unité:</string>
+    <string name="metric">Métrique</string>
+    <string name="imperial">Impérial</string>
+    <string name="imperial_us">Impérial (ÉU)</string>
+    <string name="imperial_uk">Impérial (GB)</string>
+
+    <string name="price">Prix</string>
+    <string name="size">Taille</string>
+    <string name="unit">Unité</string>
+
+    <string name="preferred_system">Systèmes d\'unité</string>
+    <string name="add_row">Ajouter rangée</string>
+    <string name="remove_row">Supprimer rangée</string>
+    <string name="change_currency_symbol">Changer la devise</string>
+    <string name="currency_header">Devise</string>
+
+    <string name="show_price_per">Montre prix par:</string>
+    <string name="main_final_summary">La choix la plus économique est rangée %1$d</string>
+    <string name="m_per_u">%1$s par %2$s</string>
+    <string name="m_per_s_u">%1$s par %2$s %3$s</string>
+    <string name="m_per_qxs_u">%1$s par %2$s x %3$s %4$s</string>
+
+    <string name="save">Sauvegarder</string>
+    <string name="clear">Effacer</string>
+    <string name="rename">Renommer</string>
+    <string name="delete">Supprimer</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="saved_from_date">Sauvegardé %1$s</string>
+
+    <!-- MASS -->
+    <string name="weight">Poids</string>
+    <string name="gram_symbol">g</string>
+    <string name="gram_name">Grammes</string>
+    <string name="kilogram_symbol">kg</string>
+    <string name="kilogram_name">Kilogrammes</string>
+    <string name="milligram_symbol">mg</string>
+    <string name="milligram_name">Milligrammes</string>
+    <string name="ounce_symbol">oz</string>
+    <string name="ounce_name">Onces</string>
+    <string name="pound_symbol">lb</string>
+    <string name="pound_name">Livres</string>
+    <string name="stone_symbol">st</string>
+    <string name="stone_name">Stone</string>
+
+    <!-- VOLUME -->
+    <string name="volume">Volume</string>
+    <string name="millilitre_symbol">mL</string>
+    <string name="millilitre_name">Millilitres</string>
+    <string name="litre_symbol">L</string>
+    <string name="litre_name">Litres</string>
+    <string name="cubic_centimetre_symbol">cc</string>
+    <string name="cubic_centimetre_name">Centimètres cubes</string>
+    <string name="gallon_symbol">gal</string>
+    <string name="gallon_name">Gallons</string>
+    <string name="quart_symbol">qt</string>
+    <string name="quart_name">Quarts</string>
+    <string name="pint_symbol">pt</string>
+    <string name="pint_name">Pintes</string>
+    <string name="cup_symbol">c</string>
+    <string name="cup_name">Tasses</string>
+    <string name="fluid_ounce_symbol">oz</string>
+    <string name="fluid_ounce_name">Onces liquides</string>
+    <string name="tablespoon_symbol">CàS</string>
+    <string name="tablespoon_name">Cuillères à soupe</string>
+    <string name="teaspoon_symbol">CàC</string>
+    <string name="teaspoon_name">Cuillères à café</string>
+    <string name="us_gallon_symbol">gal US</string>
+    <string name="us_gallon_name">Gallons US</string>
+    <string name="us_quart_symbol">qt US</string>
+    <string name="us_quart_name">Quarts US</string>
+    <string name="us_pint_symbol">pt US</string>
+    <string name="us_pint_name">Pintes US</string>
+    <string name="us_cup_symbol">c US</string>
+    <string name="us_cup_name">Tasses US</string>
+    <string name="us_fluid_ounce_symbol">oz US</string>
+    <string name="us_fluid_ounce_name">Onces liquides US</string>
+    <string name="us_tablespoon_symbol">CàS US</string>
+    <string name="us_tablespoon_name">Cuillères à soupe US</string>
+    <string name="us_teaspoon_symbol">CàC US</string>
+    <string name="us_teaspoon_name">Cuillères à café US</string>
+
+    <!-- LENGTH -->
+    <string name="length">Longueur</string>
+    <string name="metre_symbol">m</string>
+    <string name="metre_name">Mètres</string>
+    <string name="kilometre_symbol">km</string>
+    <string name="kilometre_name">Kilomètres</string>
+    <string name="centimetre_symbol">cm</string>
+    <string name="centimetre_name">Centimètres</string>
+    <string name="millimetre_symbol">mm</string>
+    <string name="millimetre_name">Millimètres</string>
+    <string name="inch_symbol">po</string>
+    <string name="inch_name">Pouces</string>
+    <string name="foot_symbol">ft</string>
+    <string name="foot_name">Pieds</string>
+    <string name="yard_symbol">yd</string>
+    <string name="yard_name">Verges</string>
+    <string name="mile_symbol">mi</string>
+    <string name="mile_name">Milles</string>
+
+    <string name="quantity">Quantité</string>
+    <string name="unit_symbol">unité</string>
+    <string name="unit_name">Unités</string>
+    <string name="dozen_symbol">douzaine</string>
+    <string name="dozen_name">Douzaines</string>
+
+    <!-- AREA -->
+    <string name="area">Superficie</string>
+    <string name="square_metre_symbol">m²</string>
+    <string name="square_metre_name">Mètres carrés</string>
+    <string name="square_centimetre_symbol">cm²</string>
+    <string name="square_centimetre_name">Centimètres carrés</string>
+    <string name="square_millimetre_symbol">mm²</string>
+    <string name="square_millimetre_name">Millimètres carrés</string>
+    <string name="square_kilometre_symbol">km²</string>
+    <string name="square_kilometre_name">Kilomètres carrés</string>
+    <string name="are_symbol">a</string>
+    <string name="are_name">Are</string>
+    <string name="hectare_symbol">ha</string>
+    <string name="hectare_name">Hectares</string>
+    <string name="acre_symbol">ac</string>
+    <string name="acre_name">Acres</string>
+    <string name="square_foot_symbol">ft²</string>
+    <string name="square_foot_name">Pieds carrés</string>
+    <string name="square_inch_symbol">po²</string>
+    <string name="square_inch_name">Pouces carrés</string>
+    <string name="square_yard_symbol">yd²</string>
+    <string name="square_yard_name">Verges carrées</string>
+    <string name="square_mile_symbol">mi²</string>
+    <string name="square_mile_name">Milles carrés</string>
+
+    <string name="choose_unit">Choisir une unité</string>
+
+    <string name="add_note">Ajouter note</string>
+    <string name="edit_note">Éditer note</string>
+    <string name="enter_note_hint">Remplir une note</string>
+    <string name="default_unit_quantity">Valeurs par défault</string>
+    <string name="default_unit_quantity_summary_line">%1$s: %2$s %3$s</string>
+    <string name="default_quantity_dialog_header">Valeur par défault: %1$s</string>
+    <string name="search">Rechercher</string>
+    <string name="initial_screen">Accueil</string>
+    <string name="saved_comparison_subtitle">Le meilleur: $1%s</string>
+
+    <string name="note_row_x">Rangée %2$d: %1$s</string>
+    <string name="initial_screen_new_comparison">Nouvelle comparaison</string>
+    <string name="row_x">Rangée %1$d</string>
+    <string name="untitled">Sans titre</string>
+
+    <string name="saved_comparisons_empty">Après d'avoir sauvegardé des comparaisons, elles s'apparaissent ici</string>
+    <string name="saved_comparisons">Comparaisons sauvegardées</string>
+
+    <string name="pl_saved_comparison_items">one;;%1$s (%2$d article);;other;;%1$s (%2$d articles)</string>
+</resources>
