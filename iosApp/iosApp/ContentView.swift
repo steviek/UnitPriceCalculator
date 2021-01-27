@@ -50,6 +50,7 @@ struct ContentView: View {
                     }
                     .tag(2)
             }
+            .navigationViewStyle(StackNavigationViewStyle())
         }
     }
     

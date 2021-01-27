@@ -12,28 +12,42 @@ struct ComparisonTopBar: View {
     }
     
     var body: some View {
-        HStack {
-            Button(MR.strings().clear.load()) {
-                withAnimation {
-                    comparison = comparison.cleared()
-                }
-            }.padding()
-            .disabled(!comparison.isClearable())
-            TextField(
-                MR.strings().untitled.load(),
-                text: Binding(
-                    get: { comparison.name ?? "" },
-                    set: { value in
-                        comparison = comparison.withName(name: value)
+        ZStack {
+            HStack {
+                Button(MR.strings().clear.load()) {
+                    withAnimation {
+                        comparison = comparison.cleared()
                     }
+                }
+                .padding()
+                .disabled(!comparison.isClearable())
+                
+                Spacer()
+                
+                Button(MR.strings().save.load()) {
+                    let result = SavedComparisonManager().save(comparison: comparison)
+                    savedComparisons = SavedComparisonManager().getSavedComparisons()
+                    comparison = result
+                }
+                .padding()
+                .disabled(!comparison.isSaveable(lastSavedComparison: lastSavedComparison))
+            }
+            HStack {
+                Spacer().frame(width: 115)
+                
+                TextField(
+                    MR.strings().untitled.load(),
+                    text: Binding(
+                        get: { comparison.name ?? "" },
+                        set: { value in
+                            comparison = comparison.withName(name: value)
+                        }
+                    )
                 )
-            ).multilineTextAlignment(.center)
-            Button(MR.strings().save.load()) {
-                let result = SavedComparisonManager().save(comparison: comparison)
-                savedComparisons = SavedComparisonManager().getSavedComparisons()
-                comparison = result
-            }.padding()
-            .disabled(!comparison.isSaveable(lastSavedComparison: lastSavedComparison))
+                .multilineTextAlignment(.center)
+                
+                Spacer().frame(width: 115)
+            }
         }
     }
 }
